@@ -1,3 +1,11 @@
+# Data Saturday #74 — Kongens Lyngby
+### Komplet program & fulde sessionbeskrivelser  
+**Dato:** 31. januar 2026
+
+---
+
+# 📋 Programtabel
+
 | Tid            | Session                                                       | Speaker(s)                         | Type                | Ref  |
 |----------------|---------------------------------------------------------------|-------------------------------------|----------------------|------|
 | 08:00–08:30    | Registration                                                  | –                                   | –                    | –    |
@@ -35,255 +43,226 @@
 | 16:00–17:00    | Is your Semantic Model ready for AI?                          | Yulia Kraynova                       | Modeling             | S25  |
 | 17:00–17:30    | Raffle                                                        | –                                   | –                    | –    |
 
-# S01 — How’s your reflex? Introduction to Fabric Data Activator
+---
+
+# 📚 Sessionsbeskrivelser (S01–S25)
+
+---
+
+## S01 — How’s your reflex? Introduction to Fabric Data Activator
 **Speaker:** Ásgeir Gunnarsson  
 **Type:** Automation  
-**Tid:** 09:10–10:10  
 
 Have you heard about Data Activator? The new kid on the block in Microsoft Fabric. It’s a tool where you can monitor numbers and events, set thresholds, and react when those thresholds are broken.
 
 In this session we will dive into Data Activator and its items Reflexes. We will explain what it is, and what it isn’t.
 
-**Demo-del 1:** Monitoring numbers in Power BI and streams of data.  
-**Demo-del 2:** Setting up Reflex thresholds and check types.  
-**Demo-del 3:** Reacting to events via email and Power Automate workflows.
+Then there is demo time.  
+**Demo 1:** Monitoring values in Power BI reports & streaming data  
+**Demo 2:** Setting up thresholds & checks in Reflex  
+**Demo 3:** Reacting to events with emails & Power Automate flows  
 
-We end by looking at capacity impact and cost.  
-Attendees leave knowing what Data Activator is, and how to apply it in real environments.
+We finish by reviewing capacity impact and cost.
+
+Attendees leave with a practical understanding of Data Activator and how to use it in real environments.
 
 ---
 
-# S02 — Mastering Composite Models: Power BI for the Self‑Service Developer
+## S02 — Mastering Composite Models: Power BI for the Self‑Service Developer
 **Speaker:** David Kofod Hanna  
 **Type:** Modeling  
-**Tid:** 09:10–10:10  
 
-Unlock the power of Composite Models in Power BI to bridge self‑service and enterprise BI.  
-Learn how to enrich local data with enterprise semantic models, simplify UX, leverage perspectives, understand Calculation Groups and security concerns.
+Unlock the power of Composite Models in Power BI to bridge self-service and enterprise reporting.
 
-Admins will also learn how to disable composite models for full governance control.
+Learn how to enrich local data with enterprise semantic models, simplify UX, work with DirectQuery, use perspectives, understand Calculation Groups and security concerns — and how admins can disable composite models for governance.
 
 ---
 
-# S03 — Upgrade SSIS packages safely
+## S03 — Upgrade SSIS packages safely
 **Speaker:** Arne Bartels  
 **Type:** Automation  
-**Tid:** 09:10–10:10  
 
-Upgrading SSIS across SQL Server versions often breaks Script Tasks or Components — sometimes even removing code.
+Upgrading SSIS from version to version often breaks Script Tasks and Script Components — sometimes even wiping code.
 
-Learn tools and techniques to safely migrate, validate and test SSIS packages, avoid version mismatch, and protect script code before upgrading.
+Learn techniques and tools to preserve scripts, validate upgrades, and make migrations safer.
 
 ---
 
-# S04 — From Code to Context: Decoding the Next Wave of AI
+## S04 — From Code to Context: Decoding the Next Wave of AI
 **Speaker:** Suranga Jude Nanayakkara  
 **Type:** Automation  
-**Tid:** 10:25–11:25  
 
-A fast‑paced, demo‑heavy session on the emerging frontier of AI: RAG, AI agents, MCP and beyond.  
-See how next‑gen AI improves pipelines, reasoning, and business impact, and walk away with insights into practical use cases and future trends.
+The world of AI evolves faster than ever.  
+This session explores cutting-edge approaches like RAG, AI agents, MCP and future trends — with live demos showing real-world impact.
 
 ---
 
-# S05 — Migrating from SSRS to Power BI Paginated Reports
+## S05 — Migrating from SSRS to Power BI Paginated Reports
 **Speaker:** Olivier Van Steenlandt  
 **Type:** Administration  
-**Tid:** 10:25–11:25  
 
-How to transition from SSRS to Paginated Reports with Power BI Pro.  
-Learn differences in subscriptions, data‑driven scheduling, and feature gaps — plus a live migration demo.  
-Covers single‑report migrations and bulk strategies.
+A practical walkthrough of migrating SSRS reports to Paginated Reports.  
+Covers subscriptions, differences in features, alternatives, and includes a full demo (single + bulk migrations).
 
 ---
 
-# S06 — Window functions in SQL Server — brush up your skills
+## S06 — Window functions in SQL Server — brush up your skills
 **Speaker:** Thomas Hütter  
 **Type:** Development  
-**Tid:** 10:25–11:25  
 
-A practical tour of SQL window functions: OVER, PARTITION, ORDER, ranking, statistical functions, and the new WINDOW clause.
+Covers OVER, PARTITION, ORDER BY, ranking, statistical functions, offset functions and the new SQL 2025 WINDOW clause.
 
-Real‑world demos cover rolling averages, running totals, string aggregation, and "gaps and islands."
+Includes real-world demos: sliding windows, running totals, string aggregation and gaps & islands.
 
 ---
 
-# S07 — Empowering Lakehouse Solutions with Python Notebooks in Microsoft Fabric
+## S07 — Empowering Lakehouse Solutions with Python Notebooks in Fabric
 **Speaker:** Christian Henrik Reich  
 **Type:** Development  
-**Tid:** 10:25–11:25  
 
-Python Notebooks offer faster, cheaper handling of meta‑workloads than Spark for many tasks.  
-Learn when to use Python vs Spark, how to place Python in a meta‑driven lakehouse, and how to avoid overloading Fabric with Python tech.
-
-Includes tooling, workload migration and cost considerations.
+Explains when Python Notebooks outperform Spark, how they fit into metadata-driven lakehouses, tooling, migration, cost considerations, and how to avoid overloading Fabric tech stack.
 
 ---
 
-# S08 — Attribute-Based Access Control … not just roles in Azure access control!!
+## S08 — Attribute-Based Access Control ... not just roles in Azure access control!!
 **Speaker:** Massimo Bonanni  
-**Type:** Administration / Security  
-**Tid:** 11:35–12:35  
+**Type:** Administration  
 
-RBAC is not enough — ABAC enables attribute‑based, fine‑grained access control.  
-Learn how ABAC policies work, how to combine RBAC + ABAC, and how to build secure, metadata‑driven authorization structures.
+RBAC is widely known — ABAC is not.  
+Learn how ABAC enables granular, attribute-driven access in Azure and how it complements RBAC for stronger security.
 
 ---
 
-# S09 — Getting into Git with Power BI
+## S09 — Getting into Git with Power BI
 **Speaker:** Anne Holst‑Dyrnes  
 **Type:** Development  
-**Tid:** 11:35–12:35  
 
-Introduction to Git for Power BI, including project files, repository setup, linking Fabric workspaces, and seeing how changes flow through Git.
-
-Perfect for beginners — no prior Git experience needed.
+Intro to Git for Power BI project files, repo setup, Fabric Workspace integration, branching, merging and version control demos.
 
 ---
 
-# S10 — Amplify Your Experience: How to Start Writing and Speaking
+## S10 — Amplify Your Experience: How to Start Writing and Speaking
 **Speakers:** Tonie Huizer & Tony Davis  
 **Type:** Personal Development  
-**Tid:** 11:35–12:35  
 
-Learn how to turn vague ideas into compelling stories and presentations.  
-Covers shaping content, clarifying audience needs, simplifying complex concepts, and strengthening communication both on stage and at work.
+Learn to turn vague technical ideas into structured stories.  
+Covers audience analysis, communication techniques, clarity, and improving team communication.
 
 ---
 
-# S11 — Responsible and effective use of AI for technical documentation
+## S11 — Responsible and effective use of AI for technical documentation
 **Speaker:** Pradeep Sharma  
 **Type:** Governance  
-**Tid:** 11:55–12:10  
 
-How AI can support documentation work without sacrificing quality.  
-Learn governance considerations, best practices, and how to maintain accuracy and trust while leveraging AI tools.
+Using AI responsibly for documentation without compromising accuracy, governance or trust.
 
 ---
 
-# S12 — Empowering your data platform with AI (15-min version)
+## S12 — Empowering your data platform with AI (15 min)
 **Speaker:** Laura de Bruin  
 **Type:** Architecture  
-**Tid:** 12:15–12:30  
 
-Overview of how AI accelerates engineering, insights and automation.  
-Covers Copilot, generative AI patterns, cognitive services and practical ways to enhance data platforms responsibly.
+Short introduction to using AI to accelerate data engineering, analytics and automation.
 
 ---
 
-# S13 — Lakeflow Declarative Pipelines Demystified
+## S13 — Lakeflow Declarative Pipelines Demystified
 **Speaker:** Geir Alstad  
 **Type:** Development  
-**Tid:** 13:30–14:30  
 
-Learn Lakeflow Declarative Pipelines (formerly DLT) for dynamic, medallion‑architecture data engineering.  
-Covers Autoloader, Federation, Connectors, compute choices (Spark vs Serverless), streaming vs materialized views, DQX, Expectations, monitoring and CI/CD.
+Full overview of Lakeflow: Autoloader, Federation, Connectors, Spark vs Serverless, Streaming Tables vs Materialized Views, DQX, Expectations, Monitoring and CI/CD.
 
 ---
 
-# S14 — Bridging the Gap: Transforming Tech Friction into Startup Success
+## S14 — Bridging the Gap: Transforming Tech Friction into Startup Success
 **Speakers:** Gethyn Ellis & David Postlethwaite  
 **Type:** Business Development  
-**Tid:** 13:30–14:30  
 
-Misalignment between developers and investors kills startups.  
-Learn how to translate business goals to technical requirements, create shared understanding, and use Azure AI/OpenAI to accelerate alignment and innovation.
+How Azure AI & OpenAI Services help investors and developers align, translate requirements, eliminate friction and accelerate innovation.
 
 ---
 
-# S15 — An Apache Spark query’s journey through the layers of Microsoft Fabric
+## S15 — An Apache Spark query’s journey through the layers of Microsoft Fabric
 **Speaker:** Christian Henrik Reich  
 **Type:** Development  
-**Tid:** 13:30–14:30  
 
-A deep dive into Spark SQL, Catalyst, Tungsten, Fabric’s native execution engine, Delta Lake and Parquet.  
-Includes reading real Spark source code to understand query execution and optimization.
+Deep dive into Catalyst, Tungsten, Fabric's native C++ engine, Delta Lake, Parquet and real Spark source code.
 
 ---
 
-# S16 — Empowering your data platform with AI (60‑min edition)
+## S16 — Empowering your data platform with AI (60 min edition)
 **Speaker:** Laura de Bruin  
 **Type:** Architecture  
-**Tid:** 13:30–14:30  
 
-Explore Copilot, AI/BI Genie, cognitive services, predictive ML, text analytics and generative AI — plus governance, security and responsible AI.  
-Includes live demo.
+Covers ML, Copilot, cognitive services, generative AI, text analytics, automation, governance and hands-on demos.
 
 ---
 
-# S17 — Apache Spark for SQL Data Warehouse Developers
+## S17 — Apache Spark for SQL Data Warehouse Developers
 **Speaker:** Olivier Van Steenlandt  
 **Type:** Development  
-**Tid:** 14:45–15:45  
 
-Learn Spark from a SQL mindset: Spark SQL, DataFrames, distributed processing, and how SQL patterns translate into Spark equivalents.  
-Side‑by‑side comparisons and progressive examples.
+Learn Spark from a SQL-based perspective through practical comparisons and progressive examples.
 
 ---
 
-# S18 — Metadata Scanner API: Unlock Metadata Possibilities
+## S18 — Metadata Scanner API: Unlock Metadata Possibilities
 **Speaker:** Karianne Kies  
 **Type:** Automation  
-**Tid:** 14:45–15:45  
 
-Discover hidden metadata with the Metadata Scanner API.  
-Learn how to reveal dependencies, lineage, orphaned artefacts, and strengthen governance with automation and visualization.
+Shows how scanning APIs reveal hidden metadata, uncover dependencies, strengthen governance and visualize your BI landscape.
 
 ---
 
-# S19 — IoT … cloud … big data — let’s start small!
+## S19 — IoT … cloud … big data — let’s start small!
 **Speaker:** Thomas Hütter  
 **Type:** Development  
-**Tid:** 14:45–15:45  
 
-Build your first IoT project using Arduino hardware, sensors, cloud connectivity and dashboards.  
-A practical walkthrough with low-cost hardware and free cloud offerings.
+Arduino-based IoT project demo including hardware, sensors, networking, cloud ingestion and dashboard visualization using free/low-cost tools.
 
 ---
 
-# S20 — Don’t underestimate the Azure Storage Account
+## S20 — Don’t underestimate the Azure Storage Account
 **Speaker:** Massimo Bonanni  
 **Type:** Development  
-**Tid:** 14:45–15:45  
 
-Azure Storage Account hides powerful features: lifecycle management, object replication, immutable policies, blob inventory and encryption scopes.  
-Re-evaluate it as a scalable, affordable persistence layer.
+Storage Account is an underrated powerhouse: lifecycle management, replication, immutable policies, inventory, encryption scope — scalable and affordable.
 
 ---
 
-# S21 — Exploring Deployment Patterns in Fabric
+## S21 — Exploring Deployment Patterns in Fabric
 **Speakers:** Sarath Sasidharan & Fretz Nuson  
 **Type:** Automation / Architecture  
-**Tid:** 16:00–17:00  
 
-Learn deployment patterns for Fabric: Dev/Test/Prod, CI/CD, templates, item‑ and environment‑scoped deployments, monitoring, troubleshooting and real-world case studies.
+Full exploration of Fabric deployment patterns, CI/CD, monitoring, troubleshooting and real-world cases.
 
 ---
 
-# S22 — Questioning My SQL Server Faith… So You Don’t Have To
+## S22 — Questioning My SQL Server Faith… So You Don’t Have To
 **Speaker:** Gianluca Sartori  
 **Type:** Development  
-**Tid:** 16:00–17:00  
 
-SQL Server vs PostgreSQL — a frank, practical comparison.  
-Understand SQL Server’s strengths, tooling, performance, security and when it remains the right choice for new projects.
+SQL Server vs PostgreSQL — honest comparison of strengths, performance, tooling, cost and when SQL Server is still the right choice.
 
 ---
 
-# S23 — Leave the progress reports to the agents
+## S23 — Leave the progress reports to the agents
 **Speaker:** Grímur Sæmundsson  
-**Type:** Automation / AI Agents  
-**Tid:** 16:00–17:00  
+**Type:** Automation  
 
-See an AI‑agent solution generate status reports automatically using data from Fabric and reasoning in Azure AI Foundry.  
-Learn agent roles, architecture, orchestration and inspiration for your own agent‑based workflows.
+AI agents generate project progress reports using Fabric data and Azure AI Foundry.  
+Architecture deep-dive and inspiration for designing your own agent-based workflows.
 
 ---
 
-# S24 — Is Your Power BI Semantic Model Ready for AI?
+## S24 — Is Your Power BI Semantic Model Ready for AI?
 **Speaker:** Yulia Kraynova  
 **Type:** Modeling  
-**Tid:** 16:00–17:00  
 
-Most semantic models aren’t AI‑ready.  
-Learn how naming, relationships, descriptions, metadata and schema clarity impact AI performance in Q&A, Copilot and narratives — and how to fix it.
+Semantic models need strong metadata to support AI.  
+Learn naming, descriptions, relationships, structure and how to prepare a model for Copilot, Q&A and narrative AI.
+
+---
+
+## S25 — Empowering your data platform with AI (Long Edition — Description Above)
+*(Already covered under S17 in long form)*
